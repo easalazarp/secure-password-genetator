@@ -72,7 +72,7 @@ def processed_password():
                 print("**** Ingrese una opción válida ****")
                 except_activated = True
         except ValueError:
-            print("**** Ingrese una opción válida ****")
+            print("*** Ingrese una opción válida ***")
             except_activated = True
 
 if __name__ == "__main__":
