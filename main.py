@@ -12,10 +12,10 @@ def password_length():
             if 8 <= length <= 16:
                 break
             else:
-                print("*** Ingrese una número entre 1 a 16 ***")
+                print("*** Ingrese una número entre 8 a 16 ***")
         except ValueError:
             print("*** Ingrese un número entre 8 a 16 ***")
-            print("*** Ingrese un número entre 8 a 16 ***")
+
     return length
 
 # Validar que solo se puedan agregar opciones disponibles
